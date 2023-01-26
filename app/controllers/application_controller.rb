@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
-  
+
   protect_from_forgery with: :exception
 
   private
@@ -20,6 +20,7 @@ class ApplicationController < ActionController::Base
     enhanced_cart.map {|entry| entry[:product].price_cents * entry[:quantity]}.sum
   end
   helper_method :cart_subtotal_cents
+
 
 
   def update_cart(new_cart)
