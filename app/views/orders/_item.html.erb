@@ -1,17 +1,16 @@
 <tr>
   <td>
-
- </td>
+    <%= image_tag product.image.tiny.url %>
+  </td>
   <td>
-    <h4><%= @order %></h4>
+    <h4><%= product.name %></h4>
     <br>
-
+    <p><%= product.description %></p>
   </td>
   <td>
-    $<%= @order.email %>
+    <%= humanized_money_with_symbol product.price %>
   </td>
   <td>
-    <div>
     <%= quantity %>
-
+  </td>
 </tr>

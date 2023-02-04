@@ -1,16 +1,18 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Dashboard</h1>
 
-
-<div>
-Product:
-<%= @count_products %>
-</div>
-
-<div>
-Categories:
-<%= @count_categories %>
-</div>
-
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Product</th>
+      <th scope="col">Categories</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Product:
+        <%= @count_products %></td>
+      <td>Categories:
+        <%= @count_categories %></td>
+  </tbody>
+</table>
 <%= link_to "Redirect to products", "/admin/products" %>
-
