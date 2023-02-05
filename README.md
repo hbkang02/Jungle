@@ -25,6 +25,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Functionality
 
+signup-login-logout
+![](https://github.com/hbkang02/Jungle/blob/master/docs/login.gif?raw=true)
+
+
+
 
 ## Dependencies
 
