@@ -28,8 +28,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 signup-login-logout
 ![](https://github.com/hbkang02/Jungle/blob/master/docs/login.gif?raw=true)
 
+admin: show dashboard, add new categories
+![](https://github.com/hbkang02/Jungle/blob/master/docs/add-category.gif?raw=true)
 
-
+products: add products to carts, pay for items in carts, shows info about the purchase
+![](https://github.com/hbkang02/Jungle/blob/master/docs/product-cart.gif?raw=true)
 
 ## Dependencies
 
